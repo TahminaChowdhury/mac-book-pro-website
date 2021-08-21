@@ -27,7 +27,7 @@ function discountedTotal() {
         const TotalPrice = parseFloat(TotalPriceText.innerText)
         const discount = TotalPrice / 5;
         const discountedTotal = TotalPrice - discount;
-        document.getElementById('final-total').innerText = discountedTotal;
+        document.getElementById('total-price').innerText = discountedTotal;
         matchCode.value = '';
     }
 }
